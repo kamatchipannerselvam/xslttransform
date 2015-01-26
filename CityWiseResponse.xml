@@ -1,0 +1,110 @@
+<Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Header xmlns="http://schemas.xmlsoap.org/soap/envelope">
+<TimeStamp>2014-05-05T15:10:48</TimeStamp>
+<Action>OTA_HotelInvCountNotifRQ</Action>
+</Header>
+<Body xmlns="http://schemas.xmlsoap.org/soap/envelope">
+<OTA_HotelAvailRS TransactionIdentifier="12345" EchoToken="12345" Target="Test" TimeStamp="2008-03-18T10:46:53.393" Version="6.001">
+<Success/>
+<RoomStays>
+<RoomStay>
+<RoomTypes>
+<RoomType RoomTypeCode="DLX" MaxPersons="4">
+<RoomDescription Text="Deluxe">
+<ImagePath>http://reznextlive.blob.core.windows.net/custcode-106/63750.jpg</ImagePath>
+</RoomDescription>
+<RoomAmenities>
+<AmenityDescription Code="64" Description="24hr room service "/>
+<AmenityDescription Code="69" Description="Safety deposit boxes"/>
+</RoomAmenities>
+</RoomType>
+<RoomType RoomTypeCode="EAC" MaxPersons="4">
+<RoomDescription Text="Executive AC">
+<ImagePath>http://reznextlive.blob.core.windows.net/custcode-106/63752.jpg</ImagePath>
+</RoomDescription>
+<RoomAmenities>
+<AmenityDescription Code="64" Description="24hr room service "/>
+<AmenityDescription Code="69" Description="Safety deposit boxes"/>
+</RoomAmenities>
+</RoomType>
+<RoomType RoomTypeCode="EXE" MaxPersons="4">
+<RoomDescription Text="Executive">
+<ImagePath>http://reznextlive.blob.core.windows.net/custcode-106/63754.jpg</ImagePath>
+</RoomDescription>
+<RoomAmenities>
+<AmenityDescription Code="64" Description="24hr room service "/>
+<AmenityDescription Code="69" Description="Safety deposit boxes"/>
+</RoomAmenities>
+</RoomType>
+</RoomTypes>
+
+<RatePlans>
+<RatePlan RatePlanCode="BO1" RatePlanName="BAR01" RatePlanType="BAR">
+<RatePlanDescription Text="BAR"/>
+<CancelPenalties/>
+</RatePlan>
+</RatePlans>
+
+<RoomRates>
+<RoomRate EffectiveDate="2014-10-29" ExpiryDate="2014-10-30" RatePlanCode="BO1">
+<Rates RoomTypeCode="DLX">
+<Inclusion MealPlanCode="CP" MealPlanDescription="Complimentary Breakfast">
+<Rate StartDate="10/29/2014 12:00:00 AM">
+<Base SingleRate="2200" DoubleRate="2400" ExtraAdult="600" ExtraChild="0" CurrencyCode="INR" DecimalPlaces="2"/>
+<Rack SingleRate="2200" DoubleRate="2400" ExtraAdult="600" ExtraChild="0" CurrencyCode="INR" DecimalPlaces="2"/>
+<TPA_Extensions>
+<CancelPenalties/>
+</TPA_Extensions>
+</Rate>
+</Inclusion>
+</Rates>
+<Rates RoomTypeCode="EAC">
+<Inclusion MealPlanCode="CP" MealPlanDescription="Complimentary Breakfast">
+<Rate StartDate="10/29/2014 12:00:00 AM">
+<Base SingleRate="2000" DoubleRate="2200" ExtraAdult="600" ExtraChild="0" CurrencyCode="INR" DecimalPlaces="2"/>
+<Rack SingleRate="2000" DoubleRate="2200" ExtraAdult="600" ExtraChild="0" CurrencyCode="INR" DecimalPlaces="2"/>
+<TPA_Extensions>
+<CancelPenalties/>
+</TPA_Extensions>
+</Rate>
+</Inclusion>
+</Rates>
+<Rates RoomTypeCode="EXE">
+<Inclusion MealPlanCode="CP" MealPlanDescription="Complimentary Breakfast">
+<Rate StartDate="10/29/2014 12:00:00 AM">
+<Base SingleRate="1300" DoubleRate="1500" ExtraAdult="400" ExtraChild="0" CurrencyCode="INR" DecimalPlaces="2"/>
+<Rack SingleRate="1300" DoubleRate="1500" ExtraAdult="400" ExtraChild="0" CurrencyCode="INR" DecimalPlaces="2"/>
+<TPA_Extensions>
+<CancelPenalties/>
+</TPA_Extensions>
+</Rate>
+</Inclusion>
+</Rates>
+</RoomRate>
+</RoomRates>
+
+<BasicPropertyInfo HotelCode="106" HotelName="Hotel Pandian">
+<TaxType>Exclusive</TaxType>
+<Position Latitude="13.076201" Longitude="80.262243"/>
+<Address AddressLine1="#9, Kennet Lane" AddressLine2="" Area="Egmore">
+<CityName>Chennai</CityName>
+<PostalCode>600008</PostalCode>
+<State>Tamil Nadu</State>
+<CountryName>India</CountryName>
+</Address>
+<Award Rating="3"/>
+<HotelImages>
+<ImagePath>http://reznextlive.blob.core.windows.net/custcode-106/63710.jpg</ImagePath>
+<ImagePath>http://reznextlive.blob.core.windows.net/custcode-106/63711.jpg</ImagePath>
+</HotelImages>
+<HotelFeatures>
+<FeatureDescription Code="17" Description="Restaurant"/>
+<FeatureDescription Code="43" Description="Parking"/>
+</HotelFeatures>
+<HotelDescription>Pandian Hotel is an ideal stay for all kinds of travellers located in Chennai. Chennai Railway Station, major IT hubs, business district are near to hotel.</HotelDescription>
+</BasicPropertyInfo>
+</RoomStay>
+</RoomStays>
+</OTA_HotelAvailRS>
+</Body>
+</Envelope>
