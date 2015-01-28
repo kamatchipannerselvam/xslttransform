@@ -5,7 +5,6 @@
                 xmlns:env="http://schemas.xmlsoap.org/soap/envelope"
                 xmlns:math="http://exslt.org/math"
                 xmlns:xfun="http://exslt.org/function"
-                xmlns:myfunc="http://kreativbooking.com"
                 exclude-result-prefixes="msxsl xsl xsi env xsd xfun math myfunc">
 <xsl:output method="html" omit-xml-declaration="no" encoding="utf-8" indent="yes" />
 <xsl:template match="/">
